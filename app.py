@@ -11,6 +11,8 @@ import configparser
 
 from langchain import LLMChain, OpenAI, PromptTemplate
 from langchain.text_splitter import CharacterTextSplitter
+from langchain.document_loaders import PyPDFLoader
+
 
 # Set Streamlit app title, icon, and page configuration
 st.set_page_config(
